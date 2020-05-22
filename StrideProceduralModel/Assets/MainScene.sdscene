@@ -44,13 +44,21 @@ Hierarchy:
                 Components:
                     9899101b3a99a8346d6f6737582710d3: !TransformComponent
                         Id: ad097a3f-ebdc-4e96-800c-098def67b5d4
-                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Position: {X: 1.25494957, Y: 0.325970858, Z: 0.0}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     7b78cc35aed5e4cac05ef65607bba993: !StrideProceduralModel.AddMyModelScript,StrideProceduralModel
                         Id: dcae1eb6-9e7b-4909-b067-1251542b405c
                         RotationSpeed: 1.0
+                    54a4e2441e152d20935adb1adb81bcdc: !StrideProceduralModel.GameProfiler,StrideProceduralModel
+                        Id: a16b2c61-e801-43a5-b3cd-df1f1571afa8
+                        Enabled: true
+                        TextColor: {R: 144, G: 238, B: 144, A: 255}
+                        RefreshTime: 500.0
+                        SortingMode: ByTime
+                        FilteringMode: Fps
+                        ResultPage: 1
         -   Entity:
                 Id: a31041fa-21a3-4115-ad39-4168cc72984b
                 Name: Camera
@@ -95,7 +103,7 @@ Hierarchy:
                 Components:
                     ed0f1f315bc9b67bf8961356954f8734: !TransformComponent
                         Id: bf3de024-da51-412e-9524-87062a4278a5
-                        Position: {X: 0.0, Y: 0.7960088, Z: 0.0}
+                        Position: {X: 0.0, Y: 0.7960088, Z: -0.6477872}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
